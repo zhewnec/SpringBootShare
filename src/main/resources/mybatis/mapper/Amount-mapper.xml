@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.share.mapper.AmountMapper">
+    <!--  将 < 号换成  &lt;     > 号 换成&gt;  -->
+    <insert id="insert">
+    insert into amount  (share_code,transact_date,buy,sell,small_buy,inside_buy,big_buy,large_buy,small_sell,inside_sell,big_sell,large_sell)  VALUES
+(#{share_code},#{transact_date},#{buy},#{sell},#{small_buy},#{inside_buy},#{big_buy},#{large_buy},#{small_sell},#{inside_sell},#{big_sell},#{large_sell})
+    </insert>
+
+    <insert id="insertTransactDate">
+        insert into amount (share_code,transact_date) values (#{shareCode},#{TransactDate})
+    </insert>
+    <insert id="updateBuyData">
+    UPDATE amount SET buy=#{buy}, small_buy=#{smallBuy} , inside_buy=#{insideBuy},big_buy=#{bigBuy},large_buy=#{largeBuy}
+    where share_code=#{shareCode} and  transact_date=#{transactDate}
+    </insert>
+    <insert id="updateSellData" >
+    UPDATE amount SET sell=#{sell}, small_sell=#{smallSell} , inside_sell=#{insideSell},big_sell=#{bigSell},large_sell=#{largeSell}
+    where share_code=#{shareCode} and  transact_date=#{transactDate}
+           </insert>
+</mapper>

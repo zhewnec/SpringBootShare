@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.share.mapper.DailyBasicMapper">
+    <!--  将 < 号换成  &lt;     > 号 换成&gt;  -->
+    <insert id="updateTodayDateInfo" parameterType="java.util.Map">
+        replace into dailyBasic (
+        <foreach collection="columnMap" item="value" index="key" separator=",">
+            ${key}
+        </foreach>
+        )
+        values (
+        <foreach collection="columnMap" item="value" index="key" separator=",">
+            #{value}
+        </foreach>
+        )
+    </insert>
+
+
+</mapper>
