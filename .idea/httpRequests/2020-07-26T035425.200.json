@@ -1,0 +1,18 @@
+[
+  {
+    "market": "主板",
+    "COUNT(market)": 1977
+  },
+  {
+    "market": "中小板",
+    "COUNT(market)": 957
+  },
+  {
+    "market": "创业板",
+    "COUNT(market)": 831
+  },
+  {
+    "market": "科创板",
+    "COUNT(market)": 140
+  }
+]

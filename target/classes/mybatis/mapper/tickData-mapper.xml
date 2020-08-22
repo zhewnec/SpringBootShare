@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.share.mapper.TickDataMapper">
+    <!--  将 < 号换成  &lt;     > 号 换成&gt;  -->
+    <select id="countSmallBill"  resultType="com.example.share.bean.TickData">
+        SELECT SUM(amount) amount, SUM(volume) volume FROM tick_data  WHERE transact_date=#{date} AND type=#{type} AND volume  &lt;= #{num}
+    </select>
+    <select id="countBill"  resultType="com.example.share.bean.TickData">
+        SELECT SUM(amount) amount, SUM(volume) volume FROM tick_data  WHERE transact_date=#{date} AND type=#{type} AND #{greaterThan}  &lt;= volume AND  volume  &lt; #{lessThan}
+    </select>
+    <select id="countLargeBill"  resultType="com.example.share.bean.TickData">
+        SELECT SUM(amount) amount, SUM(volume) volume FROM tick_data  WHERE transact_date=#{date} AND type=#{type} AND #{num}  &lt;= volume
+    </select>
+
+    <select id="getTransactDate"  resultType="com.example.share.bean.TickData">
+         SELECT DISTINCT transact_date FROM tick_data
+    </select>
+
+    <select id="selectAll"  resultType="com.example.share.bean.TickData">
+        SELECT * FROM tick_data LIMIT 100;
+    </select>
+</mapper>

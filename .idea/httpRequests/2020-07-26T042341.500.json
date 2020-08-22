@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-07-26T08:23:41.478+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "",
+  "path": "/api/sharelist"
+}

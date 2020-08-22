@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.share.mapper.BrokerMapper">
+    <!--  将 < 号换成  &lt; > 号 换成&gt;  -->
+    <select id="selectBrokerAll"  resultType="com.example.share.bean.Broker">
+        SELECT * FROM broker LIMIT 100;
+    </select>
+
+</mapper>

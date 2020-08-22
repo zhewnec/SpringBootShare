@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.share.mapper.VolumeMapper">
+    <!--  将 < 号换成  &lt;     > 号 换成&gt;  -->
+
+    <insert id="insertTransactDate">
+        insert into volume (share_code,transact_date) values (#{shareCode},#{TransactDate})
+    </insert>
+    <insert id="updateBuyData">
+    UPDATE volume SET buy_volume=#{buy}, small_buy_volume=#{smallBuy} , inside_buy_volume=#{insideBuy},big_buy_volume=#{bigBuy},large_buy_volume=#{largeBuy}
+    where share_code=#{shareCode} and  transact_date=#{transactDate}
+    </insert>
+    <insert id="updateSellData" >
+    UPDATE volume SET sell_volume=#{sell}, small_sell_volume=#{smallSell} , inside_sell_volume=#{insideSell},big_sell_volume=#{bigSell},large_sell_volume=#{largeSell}
+    where share_code=#{shareCode} and  transact_date=#{transactDate}
+           </insert>
+</mapper>

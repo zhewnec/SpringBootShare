@@ -1,0 +1,122 @@
+[
+  {
+    "id": 33287,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:25:12",
+    "number": "0",
+    "price": "21.25",
+    "change": "0.42",
+    "volume": "1247",
+    "amount": "2649875",
+    "type": "卖盘"
+  },
+  {
+    "id": 33288,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:03",
+    "number": "1",
+    "price": "21.24",
+    "change": "-0.01",
+    "volume": "706",
+    "amount": "1497169",
+    "type": "中性盘"
+  },
+  {
+    "id": 33289,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:05",
+    "number": "2",
+    "price": "21.2",
+    "change": "-0.04",
+    "volume": "548",
+    "amount": "1161719",
+    "type": "中性盘"
+  },
+  {
+    "id": 33290,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:08",
+    "number": "3",
+    "price": "21.18",
+    "change": "-0.02",
+    "volume": "791",
+    "amount": "1678250",
+    "type": "中性盘"
+  },
+  {
+    "id": 33291,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:11",
+    "number": "4",
+    "price": "21.2",
+    "change": "0.02",
+    "volume": "572",
+    "amount": "1213022",
+    "type": "买盘"
+  },
+  {
+    "id": 33292,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:14",
+    "number": "5",
+    "price": "21.2",
+    "change": "0.0",
+    "volume": "89",
+    "amount": "188691",
+    "type": "买盘"
+  },
+  {
+    "id": 33293,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:18",
+    "number": "6",
+    "price": "21.15",
+    "change": "-0.05",
+    "volume": "136",
+    "amount": "288213",
+    "type": "卖盘"
+  },
+  {
+    "id": 33294,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:20",
+    "number": "7",
+    "price": "21.2",
+    "change": "0.05",
+    "volume": "75",
+    "amount": "159083",
+    "type": "买盘"
+  },
+  {
+    "id": 33295,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:23",
+    "number": "8",
+    "price": "21.1",
+    "change": "-0.1",
+    "volume": "142",
+    "amount": "300426",
+    "type": "卖盘"
+  },
+  {
+    "id": 33296,
+    "shareCode": "600776",
+    "transactDate": "2020-01-02",
+    "transactTime": "09:30:26",
+    "number": "9",
+    "price": "21.1",
+    "change": "0.0",
+    "volume": "57",
+    "amount": "120573",
+    "type": "卖盘"
+  }
+]

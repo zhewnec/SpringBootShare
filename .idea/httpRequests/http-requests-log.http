@@ -1,0 +1,338 @@
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T043441.200.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T043134.500.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T042341.500.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T042249.500.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T042238.500.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T035705.500.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T035611.200.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T035425.200.json
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/sharelist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-26T034903.200.json
+
+###
+
+GET http://quotes.money.163.com/cjmx/2020/20200722/0600776.xls
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-23T122355.200.txt
+
+###
+
+GET http://localhost:8080/api/broker
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-22T091624.200.json
+
+###
+
+GET http://localhost:8080/api/broker
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-22T091313.200.json
+
+###
+
+GET http://localhost:8080/api/broker
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-22T090641.200.json
+
+###
+
+GET http://localhost:8080/api/broker
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-22T090521.500.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8081/api/getbill
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/getbill
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T123447.404.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T123232.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T120453.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T120314.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T120137.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T120100.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T114816.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T114554.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T114507.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T114412.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T113944.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-19T113826.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T103010.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T102808.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T102431.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T102133.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T102102.500.json
+
+###
+
+GET http://localhost:8080/api/getbill
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-18T101716.500.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-16T094246.200.json
+
+###
+
+GET http://localhost:8080/api/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-16T090523.200.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-15T105721.200.json
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-15T105620.200.txt
+
+###
+
+GET http://localhost:8080/api/getbill
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-15T104954.500.json
+
+###
+
